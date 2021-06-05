@@ -6,23 +6,46 @@
     <link rel="stylesheet" href="./CSS/style.css" />
     <title>Momentum-Clone</title>
   </head>
-  <body>
-    <header class="login">
-      <form id="login-form" class="hidden">
-        <input
-          required
-          maxlength="15"
-          type="text"
-          placeholder="What is your name?"
-        />
-        <button aria-label="Login Button">Log In</button>
-      </form>
-      <h1 id="greeting" class="hidden fadein"></h1>
-    </header>
-    <div class="clock">
-      <h2>00:00</h2>
-    </div>
+      <main class="clock-container">
+        <div class="clock" aria-label="Current Time">
+          <span class="hour"> 00 </span>
+          <span class="blink">:</span>
+          <span class="minute"> 00 </span>
+        </div>
+      </main>
+
+      <div class="login">
+        <form id="login-form" class="hidden">
+          <input
+            class="login-input"
+            required
+            maxlength="15"
+            type="text"
+            placeholder="Write your name."
+          />
+          <button aria-label="Login Button">Log In</button>
+        </form>
+        <h1 id="greeting" class="hidden fadein"></h1>
+      </div>
+
+      <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
+
+      <div id="weather">
+        <span></span>
+         <span></span>
+      </div>
+
     <script src="./js/greeting.js"></script>
     <script src="./js/clock.js"></script>
+    <script src="./js/quotes.js"></script>
+    <script src="./js/weather.js"></script>
+    <script src="./js/config.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a46ac9d07a.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

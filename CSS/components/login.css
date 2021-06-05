@@ -1,0 +1,58 @@
+.login {
+  margin-top: 50px;
+}
+
+.hidden {
+  display: none;
+}
+
+.fadein {
+  animation: fadein 2s;
+}
+
+#login-form {
+  width: 200px;
+}
+
+.login-input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  color: #ead541;
+}
+
+.login-input::placeholder {
+  color: #ead541;
+  text-align: center;
+}
+
+.login-input:focus {
+  caret-color: white;
+  border-bottom: 1px solid #ead541;
+  transition: 0.2s ease-in;
+}
+
+.login-input:focus::placeholder {
+  color: transparent;
+  transition: ease-in-out 0.3s;
+}
+
+#greeting {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+#login-form button {
+  visibility: hidden;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
