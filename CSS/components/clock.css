@@ -1,7 +1,10 @@
 .clock {
   display: flex;
   justify-content: center;
-  font-size: 200px;
+  font-size: 7rem;
+  font-weight: 900;
+  cursor: pointer;
+  user-select: none;
 }
 
 .blink {

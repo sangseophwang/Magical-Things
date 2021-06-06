@@ -1,0 +1,43 @@
+.todo-input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 400px;
+  color: #ead541;
+}
+
+.todo-input::placeholder {
+  color: #ead541;
+  text-align: center;
+  transition: 0.7s;
+}
+
+.todo-input:focus {
+  caret-color: white;
+  border-bottom: 1px solid #ead541;
+  transition: 0.4s ease-in;
+}
+
+.todo-input:focus::placeholder {
+  color: transparent;
+  transition: ease-in-out 0.4s;
+}
+
+.todo-button {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+}
+
+.todo-button i {
+  color: #ead541;
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.todo-button i:hover {
+  transform: rotate(90deg) scale(1.5);
+  transition: 0.6s ease-in;
+}

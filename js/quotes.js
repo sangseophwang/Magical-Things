@@ -8,7 +8,7 @@ const quotes = [
     author: "John D. Rockefeller",
   },
   {
-    quote: "The way get started is to quit talking and begin doing",
+    quote: "The way get started is to quit talking and begin doing.",
     author: "Walt Disney",
   },
   {
@@ -42,6 +42,7 @@ const quotes = [
   },
 ];
 
+const clickQuote = document.querySelector("#quote");
 const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
 
@@ -49,3 +50,11 @@ const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
 quote.innerText = todaysQuote.quote;
 author.innerText = todaysQuote.author;
+
+function handleRandomQuote() {
+  const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  quote.innerText = todaysQuote.quote;
+  author.innerText = todaysQuote.author;
+}
+
+clickQuote.addEventListener("click", handleRandomQuote);

@@ -1,15 +1,24 @@
 #quote {
   padding: 20px;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.4s;
+}
+
+#quote:hover {
+  transform: scale(1.05);
+  transition: 0.7s;
+  color: yellow;
 }
 
 #quote span {
   margin-bottom: 10px;
   text-align: center;
   letter-spacing: 0.3px;
-  text-shadow: 2px 0px 3px rgba(202, 185, 66, 0.34);
+  text-shadow: 1px 0px 1px rgba(202, 185, 66, 0.2);
 }

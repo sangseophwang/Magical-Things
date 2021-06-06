@@ -2,7 +2,8 @@
 @import "./components/clock.css";
 @import "./components/login.css";
 @import "./components/quotes.css";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import "./components/todo.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -17,4 +18,15 @@ body {
   align-items: center;
   color: #ead541;
   background: linear-gradient(to bottom, #1e2227 0%, #3d4450 100%);
+}
+
+.header-container {
+  position: absolute;
+  top: 50px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

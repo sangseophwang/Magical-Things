@@ -1,5 +1,5 @@
 .login {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .hidden {
@@ -41,7 +41,9 @@
 #greeting {
   font-size: 40px;
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
+  cursor: pointer;
+  letter-spacing: 0.5px;
 }
 
 #login-form button {
