@@ -3,7 +3,7 @@
 @import "./components/login.css";
 @import "./components/quotes.css";
 @import "./components/todo.css";
-@import "./components/bottom.css";
+@import "./components/color.css";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap");
 
 * {
@@ -30,6 +30,10 @@ body {
   );
   background-size: 400% 400%;
   animation: gradient 40s ease infinite;
+}
+
+.hidden {
+  display: none;
 }
 
 .header-container {

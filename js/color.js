@@ -1,7 +1,6 @@
 const randomColor = [
   {
-    color:
-      "linear-gradient(-45deg,#5f0a87,#a4508b,#861657,#ffa69e,#e58c8a,#eec0c6)",
+    color: "linear-gradient(-45deg,#ffa69e,#e58c8a,#eec0c6)",
   },
   {
     color: "linear-gradient(-45deg,#9fa4c4,#b3cdd1,#bdd4e7,#8693ab)",
@@ -17,6 +16,13 @@ const randomColor = [
   },
   {
     color: "linear-gradient(-45deg,#09203f,#537895,#2f4353,#d2ccc4)",
+  },
+  {
+    color: "linear-gradient(-45deg,#2884b8,#d1bad2,#b1ade2,#7ddff8)",
+  },
+  {
+    color:
+      "linear-gradient(-45deg,#0d324d,#485461,#7f5a83,#c2b6b6,#a5c7b7,#8cacac)",
   },
 ];
 
