@@ -7,12 +7,33 @@
   display: none;
 }
 
+.resetBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 26px;
+}
+
+.resetBtn:hover {
+  animation: circlemove 1.5s infinite linear;
+}
+
+@keyframes circlemove {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -10%);
+  }
+}
+
 .fadein {
   animation: fadein 2s;
 }
 
 #login-form {
-  width: 200px;
+  width: 270px;
 }
 
 .login-input {
@@ -21,11 +42,11 @@
   background-color: transparent;
   width: 100%;
   color: white;
+  text-align: center;
 }
 
 .login-input::placeholder {
   color: white;
-  text-align: center;
 }
 
 .login-input:focus {
@@ -40,6 +61,7 @@
 }
 
 #greeting {
+  display: inline;
   margin-left: 20px;
   font-size: 30px;
   font-family: "Roboto", sans-serif;

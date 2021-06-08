@@ -1,0 +1,27 @@
+.bottomButton-color {
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  opacity: 0.7;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.bottomButton-color:hover {
+  transition: 1s ease-in;
+  color: red;
+  animation: circlemove 1.5s infinite linear;
+}
+
+@keyframes circlemove {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -10%);
+  }
+}

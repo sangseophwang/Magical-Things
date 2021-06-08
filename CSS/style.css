@@ -3,6 +3,7 @@
 @import "./components/login.css";
 @import "./components/quotes.css";
 @import "./components/todo.css";
+@import "./components/bottom.css";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap");
 
 * {
@@ -31,7 +32,7 @@ body {
   animation: gradient 40s ease infinite;
 }
 
-.clock-container {
+.header-container {
   position: absolute;
   top: 50px;
 }
