@@ -1,5 +1,6 @@
 .login {
   margin-top: 10px;
+  margin-left: 5px;
 }
 
 .hidden {
@@ -19,17 +20,17 @@
   outline: none;
   background-color: transparent;
   width: 100%;
-  color: #ead541;
+  color: white;
 }
 
 .login-input::placeholder {
-  color: #ead541;
+  color: white;
   text-align: center;
 }
 
 .login-input:focus {
   caret-color: white;
-  border-bottom: 1px solid #ead541;
+  border-bottom: 1px solid white;
   transition: 0.2s ease-in;
 }
 
@@ -39,11 +40,13 @@
 }
 
 #greeting {
-  font-size: 40px;
+  margin-left: 20px;
+  font-size: 30px;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   cursor: pointer;
   letter-spacing: 0.5px;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.3);
 }
 
 #login-form button {

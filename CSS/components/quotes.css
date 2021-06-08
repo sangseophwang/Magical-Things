@@ -1,5 +1,5 @@
 #quote {
-  padding: 20px;
+  margin: 10px;
   position: absolute;
   bottom: 10px;
   display: flex;
@@ -13,12 +13,14 @@
 #quote:hover {
   transform: scale(1.05);
   transition: 0.7s;
-  color: yellow;
+  color: white;
 }
 
 #quote span {
+  font-style: italic;
+  font-size: 12px;
   margin-bottom: 10px;
   text-align: center;
   letter-spacing: 0.3px;
-  text-shadow: 1px 0px 1px rgba(202, 185, 66, 0.2);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
 }

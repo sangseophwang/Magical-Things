@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./CSS/style.css" />
     <title>Momentum-Clone</title>
   </head>
-      <header class="header-container">
+      <header class="clock-container">
         <div class="clock" aria-label="Current Time">
           <span class="hour"> 00 </span>
           <span class="blink">:</span>
           <span class="minute"> 00 </span>
         </div>
-
+        <div class="currentDay" aria-label="Current Day">
+          <span class="days">0월 0일 0요일</span>
+        </div>
+        
 
         <div class="login">
           <form id="login-form" class="hidden">
@@ -21,7 +24,7 @@
               required
               maxlength="15"
               type="text"
-              placeholder="Write your name."
+              placeholder="Welcome! Please write your name 🎈"
             />
             <button aria-label="Login Button">Log In</button>
           </form>
