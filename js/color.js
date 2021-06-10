@@ -38,3 +38,4 @@ function handleRandomColor() {
 }
 
 clickColorButton.addEventListener("click", handleRandomColor);
+document.addEventListener("DOMContentLoaded", handleRandomColor);

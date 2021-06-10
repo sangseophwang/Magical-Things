@@ -4,6 +4,7 @@
 @import "./components/quotes.css";
 @import "./components/todo.css";
 @import "./components/color.css";
+@import "./components/weather.css";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap");
 
 * {
